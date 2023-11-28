@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="617.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tsenaskolo_application.Controllers.registrationController">
+   <VBox fillWidth="false" layoutX="7.0" prefHeight="400.0" prefWidth="150.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tsena Skolo" />
+      <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Primary School" />
+      <Text layoutX="10.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User registration From" />
+   </VBox>
+   <VBox fillWidth="false" layoutX="186.0" layoutY="8.0" prefHeight="400.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="410.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Select User Type:" />
+      <HBox prefHeight="30.0" prefWidth="250.0">
+         <RadioButton fx:id="parent_rButton" mnemonicParsing="false" text="PARENT" />
+      </HBox>
+      <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter username:" />
+      <TextField fx:id="registration_Username" />
+      <Text layoutX="10.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Password:" />
+      <PasswordField fx:id="registration_Password" layoutX="10.0" layoutY="74.0" />
+      <Text layoutX="10.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password:" />
+      <PasswordField fx:id="confirm_Password" layoutX="10.0" layoutY="116.0" />
+      <Button fx:id="register_Button" mnemonicParsing="false" text="Register" />
+      <HBox layoutX="10.0" layoutY="27.0" prefHeight="30.0" prefWidth="250.0">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Already have an account??" />
+         <Button fx:id="login_Button" mnemonicParsing="false" text="Login" />
+      </HBox>
+      <Label fx:id="error_label" prefHeight="17.0" prefWidth="174.0" textFill="#c30d0d" />
+   </VBox>
+   <VBox layoutX="174.0" layoutY="29.0" prefHeight="560.0" prefWidth="200.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Enter First Name: " />
+      <TextField fx:id="firstnameText_Field" />
+      <Text layoutX="10.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Last Name: " />
+      <TextField fx:id="lastName_textField" layoutX="10.0" layoutY="26.0" />
+      <Text layoutX="10.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Age: " />
+      <TextField fx:id="age_TextField" layoutX="10.0" layoutY="67.0" />
+      <Text layoutX="10.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Gender:" />
+      <TextField fx:id="genderText_Field" layoutX="10.0" layoutY="111.0" />
+      <Text layoutX="10.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Id Number:" />
+      <TextField fx:id="id_TextField" layoutX="10.0" layoutY="149.0" />
+      <Text layoutX="10.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Email Address:" />
+      <TextField fx:id="email_TextField" layoutX="10.0" layoutY="212.0" />
+      <Text layoutX="10.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Postal Address:" />
+      <TextField fx:id="postal_TextField" layoutX="10.0" layoutY="247.0" />
+      <Text layoutX="10.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Physical Address:" />
+      <TextField fx:id="physical_TextField" layoutX="10.0" layoutY="279.0" />
+      <Text layoutX="10.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Phone Number:" />
+      <TextField fx:id="phoneNum_TextField" layoutX="10.0" layoutY="313.0" />
+      <Label fx:id="error_empty" prefHeight="17.0" prefWidth="205.0" textFill="#cd0808" />
+   </VBox>
+   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+</AnchorPane>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="617.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tsenaskolo_application.Controllers.Registrar.viewClassesController">
+    <Text layoutX="31.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All classes present in the school  :" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="15.0" />
+    <VBox fillWidth="false" layoutX="38.0" layoutY="69.0" prefHeight="120.0" prefWidth="250.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="50.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="grade 1" />
+        <SplitPane dividerPositions="0.5067114093959731" prefHeight="90.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="80.0">
+                <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade1_class_A" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="124.0">
+                <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" B" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade1_class_B" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+        </SplitPane>
+    </VBox>
+    <VBox fillWidth="false" layoutX="38.0" layoutY="405.0" prefHeight="120.0" prefWidth="250.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="320.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="grade 3" />
+        <SplitPane dividerPositions="0.5067114093959731" prefHeight="90.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="80.0">
+                <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade3_class_A" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="124.0">
+                <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" B" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade3_class_B" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+        </SplitPane>
+    </VBox>
+    <VBox fillWidth="false" layoutX="330.0" layoutY="79.0" prefHeight="120.0" prefWidth="250.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="460.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="grade 4" />
+        <SplitPane dividerPositions="0.5067114093959731" prefHeight="90.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="80.0">
+                <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade4_class_A" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="124.0">
+                <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" B" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade4_class_B" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+        </SplitPane>
+    </VBox>
+    <VBox fillWidth="false" layoutX="315.0" layoutY="259.0" prefHeight="120.0" prefWidth="250.0" AnchorPane.leftAnchor="330.0" AnchorPane.topAnchor="50.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="grade 5" />
+        <SplitPane dividerPositions="0.5067114093959731" prefHeight="90.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="80.0">
+                <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade5_class_A" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="124.0">
+                <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" B" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade5_class_B" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+        </SplitPane>
+    </VBox>
+    <VBox fillWidth="false" layoutX="38.0" layoutY="259.0" prefHeight="120.0" prefWidth="250.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="190.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="grade 2" />
+        <SplitPane dividerPositions="0.5067114093959731" prefHeight="90.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="80.0">
+                <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade2_class_A" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="124.0">
+                <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" B" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade2_class_B" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+        </SplitPane>
+    </VBox>
+    <VBox fillWidth="false" layoutX="325.0" layoutY="60.0" prefHeight="120.0" prefWidth="250.0" AnchorPane.leftAnchor="330.0" AnchorPane.topAnchor="190.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="grade 6" />
+        <SplitPane dividerPositions="0.5067114093959731" prefHeight="90.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="80.0">
+                <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade6_class_A" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="124.0">
+                <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" B" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade6_class_B" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+        </SplitPane>
+    </VBox>
+    <VBox fillWidth="false" layoutX="335.0" layoutY="200.0" prefHeight="120.0" prefWidth="250.0" AnchorPane.leftAnchor="330.0" AnchorPane.topAnchor="320.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="grade 7" />
+        <SplitPane dividerPositions="0.5067114093959731" prefHeight="90.0" prefWidth="200.0">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="80.0">
+                <Text layoutX="19.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" A" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade7_class_A" layoutX="6.0" layoutY="32.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="124.0">
+                <Text layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" B" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="10.0" />
+                <Button fx:id="grade7_class_B" layoutX="32.0" layoutY="29.0" mnemonicParsing="false" text="open class" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="30.0" />
+            </AnchorPane>
+        </SplitPane>
+    </VBox>
+</AnchorPane>
